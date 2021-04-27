@@ -13,8 +13,9 @@ Package the application into a jar with
 
 ### Run JMX exporter with application
 
-    java -javaagent:./jmx_prometheus_javaagent-0.15.0.jar=8080:my-prometheus-config.yaml
--jar .\target\camel-ose-springboot-xml-1.0.0-SNAPSHOT.jar 
+    java -javaagent:./jmx_prometheus_javaagent-0.15.0.jar=8080:my-prometheus-config.yaml -jar .\target\camel-ose-springboot-xml-1.0.0-SNAPSHOT.jar 
 
+The command runs the application and configures the jmx exporter to expose camel metrics on port 8080 (configurable). 
 
-If your code doesn't compile due to HTTP blockers, use maven 3.6.3.
+If your code doesn't compile due to HTTP blockers, the easiest solution is to use maven 3.6.3.
+Alernatively, see: https://stackoverflow.com/questions/66980047/maven-build-failure-dependencyresolutionexception 
