@@ -18,4 +18,4 @@ Package the application into a jar with
 The command runs the application and configures the jmx exporter to expose camel metrics on port 8080 (configurable). 
 
 If your code doesn't compile due to HTTP blockers, the easiest solution is to use maven 3.6.3.
-Alernatively, see: https://stackoverflow.com/questions/66980047/maven-build-failure-dependencyresolutionexception 
+Or, see: https://stackoverflow.com/questions/66980047/maven-build-failure-dependencyresolutionexception 
