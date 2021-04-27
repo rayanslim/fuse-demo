@@ -13,8 +13,8 @@ Package the application into a jar with
 
 ### Run JMX exporter with application
 
-   java -javaagent:./jmx_prometheus_javaagent-0.15.0.jar=8080:my-prometheus-config.yaml -jar yourJar.jar
+    java -javaagent:./jmx_prometheus_javaagent-0.15.0.jar=8080:my-prometheus-config.yaml
+-jar .\target\camel-ose-springboot-xml-1.0.0-SNAPSHOT.jar 
+
 
 If your code doesn't compile due to HTTP blockers, use maven 3.6.3.
-
-Author: Rayan Slim
