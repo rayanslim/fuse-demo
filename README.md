@@ -9,7 +9,7 @@ Set up an instance of artemis MQ in your local machine and run it on the default
 
 Package the application into a jar with
 
-    mvn clean install
+    mvn clean package
 
 ### Run JMX exporter with application
 
